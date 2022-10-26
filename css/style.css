@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #E2DF98;
+}
+.header_titel h1{
+  /*margin-top: 34px;*/
+  width: 500px;
+  height: 46px;  
+  font-family: montserrat ;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #D42828;
+  margin: 0;auto;
+  padding: 10px;
+}
+.header{
+
+}
+.nav{
+    margin-top: 59px;
+    flex-direction:column;
+    font-family: "Monserrat" ;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    font-style: normal;
+    justify-content: space-around;
+    text-decoration: none;
+    }
+    a:hover{
+        color: white;
+    }
+.section{
+width: 1240px;
+height: 765;
+
+}
+.fish1,.fish2,.fish3{
+    width: 290px;
+    height: 290px;
+    /*border-radius: 50%;*/
+   margin: 50px 45px 0px 100px;
+}
+.section_itam1{
+    display: flex;
+}
+p{
+    margin-top: 100px;
+    width: 906px;
+    text-align: justify;
+    font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+text-align: justify;
+}
+.fish1:hover{
+    transform: rotate(20deg);
+}
