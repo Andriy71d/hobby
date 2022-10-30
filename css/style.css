@@ -10,7 +10,7 @@ background: #E2DF98;
 margin:0 auto;
 }
 .header_titel h1{
-  margin-top: 34px;
+  /*margin-top: 34px;*/
   width: 500px;
   height: 46px;  
   font-family: "Montserrat" ;
